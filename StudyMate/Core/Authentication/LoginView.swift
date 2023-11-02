@@ -1,6 +1,6 @@
 //
 //  LoginView.swift
-//  StudyMate2
+//  StudyMate
 //
 //  Created by 홍영준 on 11/1/23.
 //

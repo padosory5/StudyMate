@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		142386762AF36BDB00E679A5 /* StudyMate2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386752AF36BDB00E679A5 /* StudyMate2App.swift */; };
+		142386762AF36BDB00E679A5 /* StudyMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386752AF36BDB00E679A5 /* StudyMateApp.swift */; };
 		1423867A2AF36BDC00E679A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142386792AF36BDC00E679A5 /* Assets.xcassets */; };
 		1423867D2AF36BDC00E679A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1423867C2AF36BDC00E679A5 /* Preview Assets.xcassets */; };
-		142386872AF36BDC00E679A5 /* StudyMate2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386862AF36BDC00E679A5 /* StudyMate2Tests.swift */; };
-		142386912AF36BDC00E679A5 /* StudyMate2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386902AF36BDC00E679A5 /* StudyMate2UITests.swift */; };
-		142386932AF36BDC00E679A5 /* StudyMate2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386922AF36BDC00E679A5 /* StudyMate2UITestsLaunchTests.swift */; };
+		142386872AF36BDC00E679A5 /* StudyMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386862AF36BDC00E679A5 /* StudyMateTests.swift */; };
+		142386912AF36BDC00E679A5 /* StudyMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386902AF36BDC00E679A5 /* StudyMateUITests.swift */; };
+		142386932AF36BDC00E679A5 /* StudyMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386922AF36BDC00E679A5 /* StudyMateUITestsLaunchTests.swift */; };
 		142386B02AF36D2600E679A5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386AF2AF36D2600E679A5 /* LoginView.swift */; };
 		142386B22AF36D3900E679A5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386B12AF36D3900E679A5 /* CalendarView.swift */; };
 		142386B42AF36D4500E679A5 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386B32AF36D4500E679A5 /* FeedView.swift */; };
@@ -40,15 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		142386722AF36BDB00E679A5 /* StudyMate2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyMate2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		142386752AF36BDB00E679A5 /* StudyMate2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMate2App.swift; sourceTree = "<group>"; };
+		142386722AF36BDB00E679A5 /* StudyMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		142386752AF36BDB00E679A5 /* StudyMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMateApp.swift; sourceTree = "<group>"; };
 		142386792AF36BDC00E679A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1423867C2AF36BDC00E679A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		142386822AF36BDC00E679A5 /* StudyMate2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyMate2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		142386862AF36BDC00E679A5 /* StudyMate2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMate2Tests.swift; sourceTree = "<group>"; };
-		1423868C2AF36BDC00E679A5 /* StudyMate2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyMate2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		142386902AF36BDC00E679A5 /* StudyMate2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMate2UITests.swift; sourceTree = "<group>"; };
-		142386922AF36BDC00E679A5 /* StudyMate2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMate2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		142386822AF36BDC00E679A5 /* StudyMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142386862AF36BDC00E679A5 /* StudyMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMateTests.swift; sourceTree = "<group>"; };
+		1423868C2AF36BDC00E679A5 /* StudyMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142386902AF36BDC00E679A5 /* StudyMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMateUITests.swift; sourceTree = "<group>"; };
+		142386922AF36BDC00E679A5 /* StudyMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		142386AF2AF36D2600E679A5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		142386B12AF36D3900E679A5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		142386B32AF36D4500E679A5 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
@@ -86,9 +86,9 @@
 		142386692AF36BDB00E679A5 = {
 			isa = PBXGroup;
 			children = (
-				142386742AF36BDB00E679A5 /* StudyMate2 */,
-				142386852AF36BDC00E679A5 /* StudyMate2Tests */,
-				1423868F2AF36BDC00E679A5 /* StudyMate2UITests */,
+				142386742AF36BDB00E679A5 /* StudyMate */,
+				142386852AF36BDC00E679A5 /* StudyMateTests */,
+				1423868F2AF36BDC00E679A5 /* StudyMateUITests */,
 				142386732AF36BDB00E679A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,14 +96,14 @@
 		142386732AF36BDB00E679A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				142386722AF36BDB00E679A5 /* StudyMate2.app */,
-				142386822AF36BDC00E679A5 /* StudyMate2Tests.xctest */,
-				1423868C2AF36BDC00E679A5 /* StudyMate2UITests.xctest */,
+				142386722AF36BDB00E679A5 /* StudyMate.app */,
+				142386822AF36BDC00E679A5 /* StudyMateTests.xctest */,
+				1423868C2AF36BDC00E679A5 /* StudyMateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		142386742AF36BDB00E679A5 /* StudyMate2 */ = {
+		142386742AF36BDB00E679A5 /* StudyMate */ = {
 			isa = PBXGroup;
 			children = (
 				142386A12AF36C3F00E679A5 /* App */,
@@ -111,7 +111,7 @@
 				142386792AF36BDC00E679A5 /* Assets.xcassets */,
 				1423867B2AF36BDC00E679A5 /* Preview Content */,
 			);
-			path = StudyMate2;
+			path = StudyMate;
 			sourceTree = "<group>";
 		};
 		1423867B2AF36BDC00E679A5 /* Preview Content */ = {
@@ -122,27 +122,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		142386852AF36BDC00E679A5 /* StudyMate2Tests */ = {
+		142386852AF36BDC00E679A5 /* StudyMateTests */ = {
 			isa = PBXGroup;
 			children = (
-				142386862AF36BDC00E679A5 /* StudyMate2Tests.swift */,
+				142386862AF36BDC00E679A5 /* StudyMateTests.swift */,
 			);
-			path = StudyMate2Tests;
+			path = StudyMateTests;
 			sourceTree = "<group>";
 		};
-		1423868F2AF36BDC00E679A5 /* StudyMate2UITests */ = {
+		1423868F2AF36BDC00E679A5 /* StudyMateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				142386902AF36BDC00E679A5 /* StudyMate2UITests.swift */,
-				142386922AF36BDC00E679A5 /* StudyMate2UITestsLaunchTests.swift */,
+				142386902AF36BDC00E679A5 /* StudyMateUITests.swift */,
+				142386922AF36BDC00E679A5 /* StudyMateUITestsLaunchTests.swift */,
 			);
-			path = StudyMate2UITests;
+			path = StudyMateUITests;
 			sourceTree = "<group>";
 		};
 		142386A12AF36C3F00E679A5 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				142386752AF36BDB00E679A5 /* StudyMate2App.swift */,
+				142386752AF36BDB00E679A5 /* StudyMateApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -220,9 +220,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		142386712AF36BDB00E679A5 /* StudyMate2 */ = {
+		142386712AF36BDB00E679A5 /* StudyMate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 142386962AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMate2" */;
+			buildConfigurationList = 142386962AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMate" */;
 			buildPhases = (
 				1423866E2AF36BDB00E679A5 /* Sources */,
 				1423866F2AF36BDB00E679A5 /* Frameworks */,
@@ -232,14 +232,14 @@
 			);
 			dependencies = (
 			);
-			name = StudyMate2;
+			name = StudyMate;
 			productName = StudyMate2;
-			productReference = 142386722AF36BDB00E679A5 /* StudyMate2.app */;
+			productReference = 142386722AF36BDB00E679A5 /* StudyMate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		142386812AF36BDC00E679A5 /* StudyMate2Tests */ = {
+		142386812AF36BDC00E679A5 /* StudyMateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 142386992AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMate2Tests" */;
+			buildConfigurationList = 142386992AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMateTests" */;
 			buildPhases = (
 				1423867E2AF36BDC00E679A5 /* Sources */,
 				1423867F2AF36BDC00E679A5 /* Frameworks */,
@@ -250,14 +250,14 @@
 			dependencies = (
 				142386842AF36BDC00E679A5 /* PBXTargetDependency */,
 			);
-			name = StudyMate2Tests;
+			name = StudyMateTests;
 			productName = StudyMate2Tests;
-			productReference = 142386822AF36BDC00E679A5 /* StudyMate2Tests.xctest */;
+			productReference = 142386822AF36BDC00E679A5 /* StudyMateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1423868B2AF36BDC00E679A5 /* StudyMate2UITests */ = {
+		1423868B2AF36BDC00E679A5 /* StudyMateUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1423869C2AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMate2UITests" */;
+			buildConfigurationList = 1423869C2AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMateUITests" */;
 			buildPhases = (
 				142386882AF36BDC00E679A5 /* Sources */,
 				142386892AF36BDC00E679A5 /* Frameworks */,
@@ -268,9 +268,9 @@
 			dependencies = (
 				1423868E2AF36BDC00E679A5 /* PBXTargetDependency */,
 			);
-			name = StudyMate2UITests;
+			name = StudyMateUITests;
 			productName = StudyMate2UITests;
-			productReference = 1423868C2AF36BDC00E679A5 /* StudyMate2UITests.xctest */;
+			productReference = 1423868C2AF36BDC00E679A5 /* StudyMateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -296,7 +296,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1423866D2AF36BDB00E679A5 /* Build configuration list for PBXProject "StudyMate2" */;
+			buildConfigurationList = 1423866D2AF36BDB00E679A5 /* Build configuration list for PBXProject "StudyMate" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -309,9 +309,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				142386712AF36BDB00E679A5 /* StudyMate2 */,
-				142386812AF36BDC00E679A5 /* StudyMate2Tests */,
-				1423868B2AF36BDC00E679A5 /* StudyMate2UITests */,
+				142386712AF36BDB00E679A5 /* StudyMate */,
+				142386812AF36BDC00E679A5 /* StudyMateTests */,
+				1423868B2AF36BDC00E679A5 /* StudyMateUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +354,7 @@
 				142386B82AF36D6100E679A5 /* PostingView.swift in Sources */,
 				142386B02AF36D2600E679A5 /* LoginView.swift in Sources */,
 				142386B22AF36D3900E679A5 /* CalendarView.swift in Sources */,
-				142386762AF36BDB00E679A5 /* StudyMate2App.swift in Sources */,
+				142386762AF36BDB00E679A5 /* StudyMateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142386872AF36BDC00E679A5 /* StudyMate2Tests.swift in Sources */,
+				142386872AF36BDC00E679A5 /* StudyMateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,8 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142386932AF36BDC00E679A5 /* StudyMate2UITestsLaunchTests.swift in Sources */,
-				142386912AF36BDC00E679A5 /* StudyMate2UITests.swift in Sources */,
+				142386932AF36BDC00E679A5 /* StudyMateUITestsLaunchTests.swift in Sources */,
+				142386912AF36BDC00E679A5 /* StudyMateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +380,12 @@
 /* Begin PBXTargetDependency section */
 		142386842AF36BDC00E679A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 142386712AF36BDB00E679A5 /* StudyMate2 */;
+			target = 142386712AF36BDB00E679A5 /* StudyMate */;
 			targetProxy = 142386832AF36BDC00E679A5 /* PBXContainerItemProxy */;
 		};
 		1423868E2AF36BDC00E679A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 142386712AF36BDB00E679A5 /* StudyMate2 */;
+			target = 142386712AF36BDB00E679A5 /* StudyMate */;
 			targetProxy = 1423868D2AF36BDC00E679A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -517,7 +517,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StudyMate2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StudyMate/Preview Content\"";
 				DEVELOPMENT_TEAM = KYAMG82YF5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -531,7 +531,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMate2;
+				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -546,7 +546,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StudyMate2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StudyMate/Preview Content\"";
 				DEVELOPMENT_TEAM = KYAMG82YF5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -560,7 +560,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMate2;
+				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -579,12 +579,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMate2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyMate2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyMate2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyMate";
 			};
 			name = Debug;
 		};
@@ -599,12 +599,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMate2Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyMate2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyMate2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyMate";
 			};
 			name = Release;
 		};
@@ -617,12 +617,12 @@
 				DEVELOPMENT_TEAM = KYAMG82YF5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMate2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = StudyMate2;
+				TEST_TARGET_NAME = StudyMate;
 			};
 			name = Debug;
 		};
@@ -635,19 +635,19 @@
 				DEVELOPMENT_TEAM = KYAMG82YF5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMate2UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = C.StudyMateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = StudyMate2;
+				TEST_TARGET_NAME = StudyMate;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1423866D2AF36BDB00E679A5 /* Build configuration list for PBXProject "StudyMate2" */ = {
+		1423866D2AF36BDB00E679A5 /* Build configuration list for PBXProject "StudyMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				142386942AF36BDC00E679A5 /* Debug */,
@@ -656,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		142386962AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMate2" */ = {
+		142386962AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				142386972AF36BDC00E679A5 /* Debug */,
@@ -665,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		142386992AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMate2Tests" */ = {
+		142386992AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1423869A2AF36BDC00E679A5 /* Debug */,
@@ -674,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1423869C2AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMate2UITests" */ = {
+		1423869C2AF36BDC00E679A5 /* Build configuration list for PBXNativeTarget "StudyMateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1423869D2AF36BDC00E679A5 /* Debug */,

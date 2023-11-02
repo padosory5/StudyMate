@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		148F8CA72AF32A84005F59B5 /* StudyMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F8CA62AF32A84005F59B5 /* StudyMateApp.swift */; };
 		148F8CA92AF32A84005F59B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F8CA82AF32A84005F59B5 /* ContentView.swift */; };
 		148F8CAB2AF32A86005F59B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148F8CAA2AF32A86005F59B5 /* Assets.xcassets */; };
 		148F8CAE2AF32A86005F59B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148F8CAD2AF32A86005F59B5 /* Preview Assets.xcassets */; };
 		148F8CB82AF32A86005F59B5 /* StudyMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F8CB72AF32A86005F59B5 /* StudyMateTests.swift */; };
 		148F8CC22AF32A86005F59B5 /* StudyMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F8CC12AF32A86005F59B5 /* StudyMateUITests.swift */; };
 		148F8CC42AF32A86005F59B5 /* StudyMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F8CC32AF32A86005F59B5 /* StudyMateUITestsLaunchTests.swift */; };
-		148F8CD32AF33F04005F59B5 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F8CD22AF33F04005F59B5 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		148F8CA32AF32A84005F59B5 /* StudyMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		148F8CA62AF32A84005F59B5 /* StudyMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMateApp.swift; sourceTree = "<group>"; };
 		148F8CA82AF32A84005F59B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		148F8CAA2AF32A86005F59B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		148F8CAD2AF32A86005F59B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,7 +42,6 @@
 		148F8CBD2AF32A86005F59B5 /* StudyMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		148F8CC12AF32A86005F59B5 /* StudyMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMateUITests.swift; sourceTree = "<group>"; };
 		148F8CC32AF32A86005F59B5 /* StudyMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		148F8CD22AF33F04005F59B5 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +92,9 @@
 		148F8CA52AF32A84005F59B5 /* StudyMate */ = {
 			isa = PBXGroup;
 			children = (
-				148F8CA62AF32A84005F59B5 /* StudyMateApp.swift */,
 				148F8CA82AF32A84005F59B5 /* ContentView.swift */,
 				148F8CAA2AF32A86005F59B5 /* Assets.xcassets */,
 				148F8CAC2AF32A86005F59B5 /* Preview Content */,
-				148F8CD22AF33F04005F59B5 /* Test.swift */,
 			);
 			path = StudyMate;
 			sourceTree = "<group>";
@@ -261,8 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				148F8CA92AF32A84005F59B5 /* ContentView.swift in Sources */,
-				148F8CA72AF32A84005F59B5 /* StudyMateApp.swift in Sources */,
-				148F8CD32AF33F04005F59B5 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

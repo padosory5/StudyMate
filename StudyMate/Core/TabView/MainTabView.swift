@@ -15,7 +15,6 @@ struct MainTabView: View {
             }
             .tabItem {
                 Image(systemName: "house")
-                Text("Home")
             }
 
             NavigationView {
@@ -23,7 +22,6 @@ struct MainTabView: View {
             }
             .tabItem {
                 Image(systemName: "map")
-                Text("Map")
             }
 
             NavigationView {
@@ -31,7 +29,6 @@ struct MainTabView: View {
             }
             .tabItem {
                 Image(systemName: "plus.square")
-                Text("Post")
             }
 
             NavigationView {
@@ -39,7 +36,6 @@ struct MainTabView: View {
             }
             .tabItem {
                 Image(systemName: "calendar")
-                Text("Calendar")
             }
 
             NavigationView {
@@ -47,7 +43,6 @@ struct MainTabView: View {
             }
             .tabItem {
                 Image(systemName: "person")
-                Text("Profile")
             }
         }
         .accentColor(.black)

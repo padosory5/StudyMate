@@ -15,6 +15,14 @@
 :heavy_check_mark: : fully operating :warning: : in progress :x: : not operating
 ---------------------------------------------------------------------
 
+## Team member/Questions
+
+###Fresh_Cola (Aiden Hong)
+- Major (intended) : Electrical & Computer Engineering
+- Email : padosory5@gmail.com
+
+###Fresh_Cola (Aiden Hong)
+
 
 
 

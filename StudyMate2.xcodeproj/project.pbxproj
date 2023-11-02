@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		142386762AF36BDB00E679A5 /* StudyMate2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386752AF36BDB00E679A5 /* StudyMate2App.swift */; };
-		142386782AF36BDB00E679A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386772AF36BDB00E679A5 /* ContentView.swift */; };
 		1423867A2AF36BDC00E679A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142386792AF36BDC00E679A5 /* Assets.xcassets */; };
 		1423867D2AF36BDC00E679A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1423867C2AF36BDC00E679A5 /* Preview Assets.xcassets */; };
 		142386872AF36BDC00E679A5 /* StudyMate2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142386862AF36BDC00E679A5 /* StudyMate2Tests.swift */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		142386722AF36BDB00E679A5 /* StudyMate2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyMate2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		142386752AF36BDB00E679A5 /* StudyMate2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMate2App.swift; sourceTree = "<group>"; };
-		142386772AF36BDB00E679A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		142386792AF36BDC00E679A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1423867C2AF36BDC00E679A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		142386822AF36BDC00E679A5 /* StudyMate2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyMate2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,10 +108,6 @@
 			children = (
 				142386A12AF36C3F00E679A5 /* App */,
 				142386A22AF36C5500E679A5 /* Core */,
-				142386A32AF36C5900E679A5 /* Extensions */,
-				142386A42AF36C5E00E679A5 /* Model */,
-				142386A52AF36C6800E679A5 /* Services */,
-				142386772AF36BDB00E679A5 /* ContentView.swift */,
 				142386792AF36BDC00E679A5 /* Assets.xcassets */,
 				1423867B2AF36BDC00E679A5 /* Preview Content */,
 			);
@@ -165,27 +159,6 @@
 				142386AE2AF36CE900E679A5 /* TabView */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		142386A32AF36C5900E679A5 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		142386A42AF36C5E00E679A5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		142386A52AF36C6800E679A5 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		142386A72AF36CB500E679A5 /* Authentication */ = {
@@ -380,7 +353,6 @@
 				142386B62AF36D4D00E679A5 /* MapView.swift in Sources */,
 				142386B82AF36D6100E679A5 /* PostingView.swift in Sources */,
 				142386B02AF36D2600E679A5 /* LoginView.swift in Sources */,
-				142386782AF36BDB00E679A5 /* ContentView.swift in Sources */,
 				142386B22AF36D3900E679A5 /* CalendarView.swift in Sources */,
 				142386762AF36BDB00E679A5 /* StudyMate2App.swift in Sources */,
 			);

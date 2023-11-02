@@ -14,7 +14,6 @@
 
 :heavy_check_mark: : fully operating  :warning: : in progress  :x: : not operating
 
----------------------------------------------------------------------
 
 ## Team member/Questions
 

@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class StudyMate2UITestsLaunchTests: XCTestCase {
+final class StudyMateUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -12,8 +12,9 @@
 - Calendar Sharing  (todolist sharing) :x:
 - User adds classes to profile to generate feed :x:
 
-:heavy_check_mark: : fully operating  :warning: : in progress  :x: : not operating
-
+:heavy_check_mark: : fully operating
+:warning: : in progress
+:x: : not operating
 
 ---------------------------------------------------------------------
 

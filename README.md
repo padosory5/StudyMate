@@ -17,11 +17,17 @@
 
 ## Team member/Questions
 
-###Fresh_Cola (Aiden Hong)
+### Fresh_Cola (Aiden Hong)
 - Major (intended) : Electrical & Computer Engineering
-- Email : padosory5@gmail.com
+- Email : yhong25@uw.edu
 
-###Fresh_Cola (Aiden Hong)
+### asea14 (Anirudh Rao)
+- Major : Computer Science
+- Email : arao24@uw.edu
+
+### inandoutcheeseurger (Yaesung Sho)
+- Major (intended) : Computer Science
+- Email : yaesung@uw.edu
 
 
 

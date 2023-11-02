@@ -13,10 +13,11 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             VStack {
-                //ignore the fuckin warning I've tried so hard to fix it but it doesn't work
+                
                 NavigationLink(
-                    destination: MainTabView(),
+                    destination: MainTabView().navigationBarBackButtonHidden(true),
                     isActive: $isMainTabViewPresented
+                    
                 ) {
                     EmptyView()
                 }

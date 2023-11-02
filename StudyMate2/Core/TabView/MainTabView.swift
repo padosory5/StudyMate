@@ -9,36 +9,51 @@ import SwiftUI
 
 struct MainTabView: View {
     var body: some View {
-        TabView{
-            Text("Home")
-                .tabItem {
-                    Image(systemName: "house")
-                }
-            
-            Text("Map")
-                .tabItem {
-                    Image(systemName: "map")
-                }
-            
-            Text("Post")
-                .tabItem {
-                    Image(systemName: "plus.square")
-                }
-            
-            Text("Calendar")
-                .tabItem {
-                    Image(systemName: "calendar")
-                }
-            
-            Text("Profile")
-                .tabItem {
-                    Image(systemName: "person")
-                }
-            
+        TabView {
+            NavigationView {
+                FeedView()
+            }
+            .tabItem {
+                Image(systemName: "house")
+                Text("Home")
+            }
+
+            NavigationView {
+                MapView()
+            }
+            .tabItem {
+                Image(systemName: "map")
+                Text("Map")
+            }
+
+            NavigationView {
+                PostingView()
+            }
+            .tabItem {
+                Image(systemName: "plus.square")
+                Text("Post")
+            }
+
+            NavigationView {
+                CalendarView()
+            }
+            .tabItem {
+                Image(systemName: "calendar")
+                Text("Calendar")
+            }
+
+            NavigationView {
+                ProfileView()
+            }
+            .tabItem {
+                Image(systemName: "person")
+                Text("Profile")
+            }
         }
         .accentColor(.black)
     }
 }
+
 
 #Preview {
     MainTabView()

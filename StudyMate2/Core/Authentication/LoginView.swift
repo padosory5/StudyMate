@@ -8,11 +8,36 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State private var isMainTabViewPresented: Bool? = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                NavigationLink(
+                    destination: MainTabView(),
+                    tag: true,
+                    selection: $isMainTabViewPresented
+                ) {
+                    EmptyView()
+                }
+                
+                Button(action: {
+                    isMainTabViewPresented = true
+                }) {
+                    Text("Click to start")
+                        .foregroundColor(.white)
+                        .frame(width: 360, height: 44)
+                        .background(Color(.systemBlue))
+                        .cornerRadius(8.0)
+                }
+                .padding(.vertical)
+            }
+        }
     }
 }
 
-#Preview {
-    LoginView()
+struct LoginView_Previews: PreviewProvider {
+    static var previews: some View {
+        LoginView()
+    }
 }

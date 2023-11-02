@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var isMainTabViewPresented: Bool? = false
+    @State private var isMainTabViewPresented: Bool = false
 
     var body: some View {
         NavigationView {
             VStack {
+                //ignore the fuckin warning I've tried so hard to fix it but it doesn't work
                 NavigationLink(
                     destination: MainTabView(),
-                    tag: true,
-                    selection: $isMainTabViewPresented
+                    isActive: $isMainTabViewPresented
                 ) {
                     EmptyView()
                 }
@@ -24,7 +24,7 @@ struct LoginView: View {
                 Button(action: {
                     isMainTabViewPresented = true
                 }) {
-                    Text("Click to start")
+                    Text("Ani make the login page")
                         .foregroundColor(.white)
                         .frame(width: 360, height: 44)
                         .background(Color(.systemBlue))
@@ -35,6 +35,7 @@ struct LoginView: View {
         }
     }
 }
+
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {

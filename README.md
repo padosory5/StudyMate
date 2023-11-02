@@ -5,13 +5,14 @@
 
 ## Functions
 
-- finding friend or study groups
-- Study locations that can be shared
-- Professor/teacher rating or recommendation for each class
-- Discussion forums about the exams or hw
-- Calendar Sharing  (todolist sharing)
-- User adds classes to profile to generate feed
+- finding friend or study groups :x:
+- Study locations that can be shared :x:
+- Professor/teacher rating or recommendation for each class :x:
+- Discussion forums about the exams or hw :x:
+- Calendar Sharing  (todolist sharing) :x:
+- User adds classes to profile to generate feed :x:
 
+:heavy_check_mark: : fully operating :warning: : in progress :x: : not operating
 ---------------------------------------------------------------------
 
 

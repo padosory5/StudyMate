@@ -23,6 +23,7 @@ struct ProfileView: View {
                 }
                 
                 Text("Pranav")
+                Text("StudyMate.")
             }
             
             .padding(.top, 40)

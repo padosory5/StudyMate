@@ -22,6 +22,7 @@ struct LoginView: View {
                     EmptyView()
                 }
                 
+                
                 Button(action: {
                     isMainTabViewPresented = true
                 }) {
@@ -30,9 +31,13 @@ struct LoginView: View {
                         .frame(width: 360, height: 44)
                         .background(Color(.systemBlue))
                         .cornerRadius(8.0)
+                    
+                    Text("Ppalda")
                 }
                 .padding(.vertical)
             }
+            
+            
         }
     }
 }

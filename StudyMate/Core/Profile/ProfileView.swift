@@ -14,16 +14,12 @@ struct ProfileView: View {
                 ZStack {
                     Image("profile")
                         .resizable()
-                        .frame(width: 150, height: 150)
-                        .foregroundColor(.white)
-                        .padding(5)
-                        .background(Color.clear)
-                        .clipShape(Circle())
-                        .aspectRatio(contentMode: .fit)
+                        .scaledToFit()
+                        .frame(width:150, height: 200)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                 }
                 
                 Text("Pranav")
-                Text("StudyMate.")
             }
             
             .padding(.top, 40)

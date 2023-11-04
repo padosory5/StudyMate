@@ -15,18 +15,37 @@ struct ProfileView: View {
                     Image("profile")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:150, height: 200)
-                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .frame(width: 150, height: 200)
+                        .clipShape(Circle())
                 }
                 
                 Text("Pranav")
+                    .font(.title)
+                    .bold()
+                    .padding(.bottom, 80) // Move text up a bit
+                
+                HStack {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Username")
+                            .padding(.bottom, 50)
+                        Text("Website")
+                            .padding(.bottom, 50)
+                        Text("Private Profile")
+                            .padding(.bottom, 50)
+                        Text("Notifications")
+                            .padding(.bottom, 50)
+                    }
+                    Spacer() // Push the left content to the left side
+                }
             }
-            
-            .padding(.top, 40)
-            Spacer()
+            .padding(.bottom, 50) // Move central content up
         }
     }
 }
+
+
+
+
 
 
 
